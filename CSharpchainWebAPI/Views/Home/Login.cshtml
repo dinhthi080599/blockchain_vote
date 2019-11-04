@@ -1,0 +1,31 @@
+﻿
+@Styles.Render("~/Content/Login.css")
+<div id="card" class="card">
+    <span id="title" class="title">Login</span>
+    <form class="formlogin" id="formlogin" action="login">
+        <input type="text" placeholder="Username" id="usernameinput" required>
+        <input type="password" placeholder="Password" id="passwordinput" required>
+        <button type="button" id="buttonlogin" class="buttonlogin">Login</button>
+    </form>
+</div>
+
+<script type="text/javascript">
+    var url = window.location.hostname;
+    $(document).on("click", "#buttonlogin", function () {
+        var sTenDN = $("#usernameinput").val();
+        var sMK = $("#passwordinput").val();
+        //console.log(url);
+        $.ajax({
+            url: "https://localhost:44394/api/login/GetAllStudents",
+            method: "POST",
+            data: {
+                "sTenDangNhap": sTenDN,
+                "sMatKhau": sMK,
+            },
+            success: function (result) {
+                console.log(result);
+            },
+            context: document.body
+        });
+    });
+</script>
