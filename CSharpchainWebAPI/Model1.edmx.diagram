@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b855c8a258f5466a88f6ce2c0fc802a7" Name="Diagram1">
+        <EntityTypeShape EntityType="qlnhModel.sysdiagram" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_ban" Width="1.5" PointX="7.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_chitiethoadon" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_chitiethoadonnhap" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_hoadon" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_hoadon_tam" Width="1.5" PointX="10" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_hoadonnhap" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_khuyenmai" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_loaisp" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_menu" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_phanquyen" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_taikhoan" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlnhModel.tbl_luumatkhau" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_hoado__iMaBa__7814D14C" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_chiti__iMaHD__00AA174D" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_chiti__imaSP__019E3B86" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_chiti__imaHD__14E61A24" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_chiti__imaSP__15DA3E5D" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_hoado__iMaNg__7DCDAAA2" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_hoado__iMaNg__76619304" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_menu__iMaLoa__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="qlnhModel.FK__tbl_taikh__sPhan__1273C1CD" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
