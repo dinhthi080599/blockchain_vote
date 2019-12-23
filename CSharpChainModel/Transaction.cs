@@ -21,6 +21,5 @@ namespace CSharpChainModel
 			this.Amount = amount;
 			this.Description = description;
 		}
-
     }
 }
