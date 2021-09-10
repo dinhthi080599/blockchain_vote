@@ -1,2 +1,2 @@
-# blockchain_superman_vote
-Voting system for Superman
+# Voting using blockchain
+Voting system
